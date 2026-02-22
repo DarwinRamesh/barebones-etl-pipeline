@@ -41,3 +41,4 @@ Above is short snippet of some logic used to filter out unwanted records automat
 
 The project has a lot of limitations. The code only runs locally as there is no cloud or OOTB server integration for the script. The script also only works for smaller datasets, not larger complex ones. This was more intended as a proof of concept to practice the barebones logic of a very simple ETL piepline developed from scratch ( without any tools ). 
 
+All automated logic lives in the main.py script. 
