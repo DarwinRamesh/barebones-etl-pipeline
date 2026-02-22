@@ -39,6 +39,6 @@ SELECT
 
 Above is short snippet of some logic used to filter out unwanted records automatically. The errors in the dirty dataset was predictable. I leveraged a LLM to help me quickly identify the conditions to filter out from the dirty dataset. 
 
-The project has a lot of limitations. The code only runs locally as there is no cloud or OOTB server integration for the script. The script also only works for smaller datasets, not larger complex ones. This was more intended as a proof of concept to practice the barebones logic of a very simple ETL piepline developed from scratch ( without any tools ). 
+The project has a lot of limitations. The code only runs locally as there is no cloud or OOTB server integration for the script. The script also only works for smaller datasets, not larger complex ones. This was more intended as a proof of concept to practice the barebones logic of a very simple ETL piepline developed from scratch ( without any tools ). The raw data is not automatically processed. There is no support for streaming or real time handling.
 
 All automated logic lives in the main.py script. 
